@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const db = require("../db");
 
-exports.SignupStructure = (req, res) => {
+exports.Register = (req, res) => {
         console.log(req.body);
     
         const {
@@ -55,7 +55,7 @@ exports.SignupStructure = (req, res) => {
         );
     };
 
-exports.LoginStructure = async (req, res) => {
+exports.Login = async (req, res) => {
         try {
             const { userid, password } = req.body;
     
