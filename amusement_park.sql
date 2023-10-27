@@ -3,11 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
-<<<<<<< Updated upstream
 -- Generation Time: Oct 24, 2023 at 06:29 PM
-=======
--- Generation Time: Oct 27, 2023 at 07:09 AM
->>>>>>> Stashed changes
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -85,10 +81,7 @@ CREATE TABLE `tickets` (
 
 CREATE TABLE `users` (
   `Name` varchar(50) NOT NULL,
-<<<<<<< Updated upstream
   `Number` int(11) NOT NULL,
-=======
->>>>>>> Stashed changes
   `UserID` varchar(50) NOT NULL,
   `Email` text NOT NULL,
   `Phone` int(11) NOT NULL,
